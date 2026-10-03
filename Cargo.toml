@@ -290,6 +290,9 @@ sysinfo_plugin = ["bevy_internal/sysinfo_plugin"]
 # Provides animation functionality
 bevy_animation = ["bevy_internal/bevy_animation"]
 
+# Provides zero-copy CUDA interop for render graphs (Linux + Vulkan only)
+bevy_cuda = ["bevy_internal/bevy_cuda"]
+
 # Provides mathematical curve functionality
 bevy_curve = ["bevy_internal/bevy_curve"]
 
